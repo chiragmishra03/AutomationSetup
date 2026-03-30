@@ -15,7 +15,7 @@ AutomationSetupPOM/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── BaseSetup/
+│   │   │   └── Setup/
 │   │   │       ├── BaseTest.java (Base class with ThreadLocal driver)
 │   │   │       ├── ConfigReader.java (Reads config.properties)
 │   │   │       └── DriverFactory.java (Creates WebDriver instances)
@@ -36,7 +36,7 @@ AutomationSetupPOM/
 
 ## How to Set Up
 1. Create a new Maven project: `mvn archetype:generate -DgroupId=org.example -DartifactId=AutomationSetupPOM -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
-2. Add the folders: src/main/java/BaseSetup, src/main/resources, src/test/java
+2. Add the folders: src/main/java/Setup, src/main/resources, src/test/java
 3. Copy the code for each class as above.
 4. Update pom.xml with dependencies and plugins.
 5. Create Configuration.properties in src/main/resources.

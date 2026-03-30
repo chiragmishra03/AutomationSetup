@@ -1,4 +1,4 @@
-import BaseSetup.BaseTest;
+import Setup.BaseTest;
 import org.testng.annotations.Test;
 
 public class TestClass extends BaseTest {
